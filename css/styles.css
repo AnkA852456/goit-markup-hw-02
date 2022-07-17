@@ -5,6 +5,7 @@
 /* text color headers #212121 */
 /* text color logo #000000 */
 /* text color accent #2196F3 */
+/* back-ground color secondary (and buttons) #F5F4FA */
 
 :root {
   --text-color-main: #757575;
@@ -28,6 +29,10 @@ body {
 }
 .list {
   list-style: none;
+}
+
+.site-nav .link.current {
+  color: var(--text-color-accent);
 }
 
 .navigation {
@@ -153,4 +158,45 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   font-style: normal;
+}
+
+
+
+
+/* PORTFOLIO CSS  */
+
+/* Filter style  */
+
+.button-projects {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color-headers);
+border-style: none;
+background-color: var(--back-ground-color-third);
+}
+
+.button-projects:hover,
+.button-projects:focus {
+  color: #ffffff;
+  background-color: var(--text-color-accent);
+}
+
+/* Picture style  */
+.project-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--text-color-headers);
+}
+
+.project-type{
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--text-color-main);
 }
