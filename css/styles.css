@@ -1,4 +1,4 @@
-/* back-ground color main #E5E5E5  */
+/* back-ground color main #F5F5F5    In russian page #e5e5e5 */
 /* back-ground color secondary #2F303A  */
 /* text color main #757575 */
 /* text color hero #FFFFFF */
@@ -31,13 +31,16 @@ body {
   list-style: none;
 }
 
-.site-nav .link.current {
-  color: var(--text-color-accent);
-}
+/* Site navigation  */
 
 .navigation {
   background-color: #ffffff;
 }
+
+.site-nav .link.current {
+  color: var(--text-color-accent);
+}
+
 .logo,
 .logo-end,
 .logo-end-bottom {
@@ -58,12 +61,14 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.site-nav .link {
   color: var(--text-color-headers);
 }
 
-.site-nav .link,
 .auth-nav .link {
-  color: var(--text-color-headers);
+  color: var(--text-color-main);
 }
 
 .site-nav .link:hover,
@@ -72,9 +77,11 @@ body {
 .auth-nav .link:focus
 {color: var(--text-color-accent)}
 
+/* Hero  */
 .section-hero {
   background-color: var(--back-ground-color-secondary);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -87,7 +94,7 @@ body {
 
 .button {
   font-family: inherit;
-    font-weight: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
@@ -97,6 +104,8 @@ body {
   background-color: var(--text-color-accent);
   border-style: none;
 }
+
+/* Principles  */
 
 .principles-list-title {
   font-size: 14px;
@@ -112,6 +121,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color-main);
 }
+
+/* Activity and comand  */
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -124,6 +136,7 @@ body {
 .section-comand {
   background-color: var(--back-ground-color-third);
 }
+
 .section-comand-list {
   font-weight: 500;
   font-size: 16px;
@@ -137,6 +150,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+/* Footer  */
 
 .contacts {
   background-color: var(--back-ground-color-secondary);
@@ -162,7 +177,6 @@ body {
 
 
 
-
 /* PORTFOLIO CSS  */
 
 /* Filter style  */
@@ -185,7 +199,13 @@ background-color: var(--back-ground-color-third);
   background-color: var(--text-color-accent);
 }
 
+.button-projects,
+.button {
+  cursor: pointer;
+}
+
 /* Picture style  */
+
 .project-name {
 font-weight: 700;
 font-size: 18px;
